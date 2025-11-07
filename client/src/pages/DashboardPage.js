@@ -13,7 +13,7 @@ const DashboardPage = () => {
     const [accountsRes,transactionRes] = await Promise.all([
 
     ])
-    axios.get('http://localhost:8080/api/accounts',)
+    axios.get(`${process.env.REACT_APP_API_URL}/accounts`,)
 
   }
 
